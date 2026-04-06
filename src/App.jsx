@@ -3,6 +3,7 @@ import Cadastro from "./pages/Form/Cadastro";
 import Home from "./pages/Home/Home";
 import Produtos from "./pages/Produtos/Produtos";
 import Contato from "./pages/Contato/Contato";
+import Sobre from "./pages/About/Sobre";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/produtos" element={<Produtos />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </main>
 
