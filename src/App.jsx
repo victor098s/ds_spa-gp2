@@ -1,10 +1,9 @@
 import "./App.css";
-import Cadastro from "./pages/Form/Cadastro";
-
+import About from "./pages/About/About";
 function App() {
   return (
     <>
-      <Cadastro />
+      <About />
     </>
   );
 }
