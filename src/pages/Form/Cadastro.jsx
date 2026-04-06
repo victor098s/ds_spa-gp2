@@ -40,9 +40,9 @@ const Cadastro = () => {
     console.log("✅ Dados validados com sucesso !");
     alert(`✅ Cadastro realizado com sucesso ! Nome: ${nome}  Email: ${email}`);
 
-    nome("");
-    email("");
-    senha("");
+    setNome("");
+    setEmail("");
+    setSenha("");
     setTouched({
       nome: false,
       email: false,
@@ -67,7 +67,7 @@ const Cadastro = () => {
             />
             {erros.nome && touched.nome && (
               <span className={styles.msgErro}>
-                😕 O campo nome deve ser preenchido !
+                ⚠ O campo nome deve ser preenchido !
               </span>
             )}
           </label>
@@ -83,7 +83,7 @@ const Cadastro = () => {
             />
             {erros.email && touched.email && (
               <span className={styles.msgErro}>
-                😕 O campo nome deve ser preenchido !
+                ⚠ O campo email deve conter @ !
               </span>
             )}
           </label>
@@ -99,7 +99,7 @@ const Cadastro = () => {
             />
             {erros.senha && touched.senha && (
               <span className={styles.msgErro}>
-                😕 O campo nome deve ser preenchido !
+                ⚠ O campo senha precisa ter mais <br /> de 6 caracteres !
               </span>
             )}
           </label>
@@ -108,7 +108,7 @@ const Cadastro = () => {
             type="submit"
             className={styles.btn}
             placeholder="Cadastrar"
-            disabled={formularioCorreto}
+            disabled={!formularioCorreto}
           />
         </form>
       </div>
