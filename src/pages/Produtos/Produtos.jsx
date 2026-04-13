@@ -50,6 +50,8 @@ export default function Produtos() {
         <p>Rua Exemplo, 123 - Japão</p>
         <p>© 2026 Sakura Blue</p>
       </footer> */}
+
+      
     </div>
   );
 }
