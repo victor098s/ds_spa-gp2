@@ -4,12 +4,12 @@ import styles from "../Produtos/Produtos.module.css";
 
 
 const produtos = [
-  { nome: "Sushi de Salmão", descricao: "Salmão fresco com arroz temperado", preco: "R$ 22,90", img: "https://via.placeholder.com/150&quot" },
-  { nome: "Temaki", descricao: "Cone de alga recheado", preco: "R$ 18,90", img: "https://via.placeholder.com/150&quot" },
-  { nome: "Hot Roll", descricao: "Sushi empanado e crocante", preco: "R$ 25,90", img: "https://via.placeholder.com/150&quot"},
-  { nome: "Sashimi", descricao: "Fatias finas de peixe fresco", preco: "R$ 29,90", img: "https://via.placeholder.com/150&quot" },
-  { nome: "Uramaki", descricao: "Sushi com arroz por fora", preco: "R$ 24,90", img: "https://via.placeholder.com/150&quot" },
-  { nome: "Yakissoba", descricao: "Macarrão com legumes e carne", preco: "R$ 27,90", img: "https://via.placeholder.com/150&quot" }
+  { nome: "Sushi de Salmão", descricao: "Salmão fresco com arroz temperado", preco: "R$ 22,90", img: ("../src/assets/img/sushisalmao.png") },
+  { nome: "Temaki", descricao: "Cone de alga recheado", preco: "R$ 18,90", img: ("../src/assets/img/temaki.png") },
+  { nome: "Hot Roll", descricao: "Sushi empanado e crocante", preco: "R$ 25,90", img: ("../src/assets/img/hotroll.png") },
+  { nome: "Sashimi", descricao: "Fatias finas de peixe fresco", preco: "R$ 29,90", img: ("../src/assets/img/sashimi.png") },
+  { nome: "Uramaki", descricao: "Sushi com arroz por fora", preco: "R$ 24,90", img: ("../src/assets/img/uramaki.png") },
+  { nome: "Yakisoba", descricao: "Macarrão com legumes e carne", preco: "R$ 27,90", img:("../src/assets/img/yakisoba.png") }
 ];
 
 export default function Produtos() {
