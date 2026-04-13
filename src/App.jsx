@@ -2,9 +2,9 @@ import "./App.css";
 import Cadastro from "./pages/Form/Cadastro";
 import Home from './pages/Home/Home'
 import Produtos from "./pages/Produtos/Produtos";
-import Contato from "./pages/Contato/Contato";
 import Sobre from "./pages/About/Sobre";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import Reserva from "./pages/Reserva/Reserva";
 
 function App() {
   return (
@@ -25,10 +25,10 @@ function App() {
           <p>Produtos</p>
         </NavLink>
         <NavLink
-          to="/contato"
+          to="/reserva"
           className={({ isActive }) => (isActive ? "active" : "")}
         >
-          <p>Contato</p>
+          <p>Reserva</p>
         </NavLink>
 
         <NavLink
@@ -51,7 +51,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/produtos" element={<Produtos />} />
-          <Route path="/contato" element={<Contato />} />
+          <Route path="/reserva" element={<Reserva />} />
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </main>
