@@ -26,12 +26,12 @@ const locais = [
 
 export default function Reserva() {
   return (
-    <section className="reserva">
+    <section className={styles.reserva}>
       <h1>Faça sua reserva online</h1>
 
-      <div className="reserva-container">
+      <div className={styles.reservaContainer}>
         {locais.map((local, index) => (
-          <div key={index} className="reserva-card">
+          <div key={index} className={styles.reservaCard}>
             <h2>{local.nome}</h2>
 
             {local.botoes.map((botao, i) => (
