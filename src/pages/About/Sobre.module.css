@@ -12,7 +12,7 @@ background-image: none("../assets/img/fundo.png");
 display: flex;
 align-items: center;
 justify-content: center;
-}
+}                        
 
 .hero h1 {
 font-size: 60px;
