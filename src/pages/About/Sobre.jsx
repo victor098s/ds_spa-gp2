@@ -7,7 +7,9 @@ const [texto, setTexto] = useState("Carregando história...");
 useEffect(() => {
 fetch("https://www.youtube.com/watch?v=wBEQl6eQg4E")
 .then((res) => res.json())
-.then((data) => setTexto(data.texto))
+.then((data) => setTexto(data.texto)) 
+
+
 .catch(() => {
 setTexto(`
 No Kokimoto Japanese Food, cada detalhe importa. Mais do que servir sushi, buscamos criar experiências únicas por meio de um processo cuidadoso que valoriza a tradição japonesa e a excelência em cada etapa.
