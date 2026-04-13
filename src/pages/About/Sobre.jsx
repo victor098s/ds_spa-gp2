@@ -5,7 +5,7 @@ export default function About() {
 const [texto, setTexto] = useState("Carregando história...");
 
 useEffect(() => {
-fetch("https://www.youtube.com/watch?v=wBEQl6eQg4E")
+fetch("https://api.npoint.io/93bed93a99df4c91044e&quot&quot")
 .then((res) => res.json())
 .then((data) => setTexto(data.texto))
 .catch(() => {
@@ -36,7 +36,7 @@ return (
 <div className={styles.section}>
 <h2>ESSA HISTÓRIA MERECE SER CONTADA</h2>
 
-<a href="#" className={styles.btn}>
+<a href="https://www.youtube.com/watch?v=wBEQl6eQg4E" className={styles.btn}>
 ASSISTA NOSSA HISTÓRIA COMPLETA AQUI
 </a>
 
