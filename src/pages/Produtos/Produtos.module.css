@@ -2,6 +2,7 @@
   font-family: Arial, sans-serif;
   background: #0a1f44;
   color: white;
+  min-height: 75vh;
 }
 
 .header {

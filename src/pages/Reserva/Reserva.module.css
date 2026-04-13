@@ -1,0 +1,59 @@
+.reserva {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.reserva h1 {
+  font-size: 48px;
+  font-family: serif;
+  margin-bottom: 60px;
+  color: #111;
+}
+
+.reservaContainer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.reservaCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservaCard h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.reservaCard button {
+  width: 200px;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.reservaCard button:hover {
+  background-color: #444;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .reserva h1 {
+    font-size: 32px;
+  }
+
+  .reservaContainer {
+    gap: 30px;
+  }
+}
