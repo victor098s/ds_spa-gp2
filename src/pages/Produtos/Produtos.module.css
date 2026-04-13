@@ -1,6 +1,68 @@
 .container {
-  min-height: 75vh;
+  font-family: Arial, sans-serif;
+  background: #0a1f44;
+  color: white;
+}
+
+.header {
   display: flex;
-  justify-content: center;
-  
+  justify-content: space-between;
+  padding: 20px;
+  background: #081633;
+}
+
+.header a {
+  margin-left: 15px;
+  color: #7ec8ff;
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0a1f44, #123d8b);
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #102b5c;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.destaque {
+  text-align: center;
+  padding: 40px;
+  background: #123d8b;
+}
+
+.destaque button {
+  padding: 10px 20px;
+  background: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #081633;
 }
