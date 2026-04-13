@@ -1,6 +1,6 @@
 import "./App.css";
 import Cadastro from "./pages/Form/Cadastro";
-import Home from "./pages/Home/Home";
+import Home from './pages/'
 import Produtos from "./pages/Produtos/Produtos";
 import Contato from "./pages/Contato/Contato";
 import Sobre from "./pages/About/Sobre";
